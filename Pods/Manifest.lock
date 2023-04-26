@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Braintree/ApplePay (5.20.1):
+    - Braintree/Core
+  - Braintree/Card (5.20.1):
+    - Braintree/Core
+  - Braintree/Core (5.20.1)
+  - Braintree/PaymentFlow (5.20.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPal (5.20.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.20.1)
+  - Braintree/ThreeDSecure (5.20.1):
+    - Braintree/Card
+    - Braintree/PaymentFlow
+  - Braintree/UnionPay (5.20.1):
+    - Braintree/Card
+  - Braintree/Venmo (5.20.1):
+    - Braintree/Core
+  - BraintreeDropIn (9.8.1):
+    - Braintree/ApplePay (~> 5.19)
+    - Braintree/Card (~> 5.19)
+    - Braintree/Core (~> 5.19)
+    - Braintree/PayPal (~> 5.19)
+    - Braintree/ThreeDSecure (~> 5.19)
+    - Braintree/UnionPay (~> 5.19)
+    - Braintree/Venmo (~> 5.19)
+  - Floaty (4.2.0)
+  - Kingfisher (7.5.0)
+  - Reachability (3.2)
+  - SnackBar.swift (0.1.0):
+    - SnapKit
+  - SnapKit (5.6.0)
+  - SwiftyGif (5.4.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - BraintreeDropIn (~> 9.8)
+  - Floaty
+  - Kingfisher (~> 7.0)
+  - Reachability (~> 3.2)
+  - SnackBar.swift (~> 0.1)
+  - SwiftyGif (~> 5.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - Floaty
+    - Kingfisher
+    - Reachability
+    - SnackBar.swift
+    - SnapKit
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Braintree: 4a27d741d164591ac87cecfaa9a02adb8eb92422
+  BraintreeDropIn: 37f70975005ecf391637c998576754f6078d786c
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  Kingfisher: b9c2a4a4af2990a768445c277359b27bde287d71
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SnackBar.swift: 79ea4df13ea9e6633137dd6acbd490534d26440d
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+
+PODFILE CHECKSUM: 7bbb0a2cf2155094e1f36e0a5418b7988f3bb3ae
+
+COCOAPODS: 1.11.3
